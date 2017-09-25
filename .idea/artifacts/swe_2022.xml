@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="swe_2022">
+    <output-path>$PROJECT_DIR$/out/artifacts/swe_2022</output-path>
+    <root id="archive" name="swe_2022.jar" />
+  </artifact>
+</component>
