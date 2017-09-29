@@ -17,6 +17,7 @@ public class ClassBase0 {
         System.out.println(a.length());
         /*
         String b = null;
+
         System.out.println(b.length());
         */
         a = null;
