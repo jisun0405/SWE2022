@@ -28,7 +28,11 @@ public class Customer {
         }
     }
     public boolean deposit(Banker b, Currency c, int q){
-        return b.requestDeposit(new Deposit(this, new Money(c, q), new Account()));
+        return b.requestDeposit(
+                new Deposit(
+                        this,
+                        new Money(c,q),
+                        new Account()));
     }
 
 }

@@ -1,6 +1,6 @@
 package lesson5;
 
-        public class Banker {
+public class Banker {
     public boolean requestDeposit(DepositRequest req){
                 Account account = req.getDepositAccount();
                 if(!account.isDepositable()) return false;
