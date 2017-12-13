@@ -8,6 +8,8 @@ public class TodoList {
 
     public TodoList(String todoListName){
         this.todoListName = todoListName;
+        save = save.todoList;
+        load = load.todoList;
 
     }
 }
